@@ -1,13 +1,99 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F8F8F8;
 }
+.App{
+  height: max-content;
+  background-color: #F8F8F8;
 
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.btn-search{
+  color:#b35b45;
+  border: 1px solid #b35b45;
+  border-radius: 8px;
+  background-color: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 1px 10px;
+  margin-right: .4rem;
+}
+.btn-search:hover{
+  color:#fff;
+  border: 1px solid #fff;
+  background-color: #b35b45;
+}
+.brand-name{
+  color: #b35b45;
+  font-family: 'Almarai', sans-serif;
+}
+.title{
+  color: #224f64;
+  font-family: 'Almarai', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 64px;
+}
+.underline{
+  background-color: #b35b45;
+  width: 160px;
+  height: 4px;
+  border: 1px solid #b35b45;
+  text-align: center;
+}
+.btn{
+  border: 1px solid #b35b45 !important;
+  font-family: 'Almarai', sans-serif !important;
+  color: #000 !important;
+  font-size: 1.1rem !important;
+  margin-left: .5rem;
+}
+.btn:hover{
+  border-radius: 10px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: #b35b45 !important;
+  border: 0;
+  font-weight: bold;
+}
+.img-food{
+  height: 230px;
+  width: 270px !important;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+.card
+{
+  margin-top: 2rem;
+}
+.txt{
+  padding-top: 1rem;
+  font-family: 'Almarai', sans-serif;
+}
+.txt .title-f{
+  color: #555555;
+  font-size: 1.4rem;
+  font-weight: bold;
+
+}
+.txt .price{
+color: #b35b45;
+}
+.desc{
+  margin-top: 1rem;
+  font-family: 'Almarai', sans-serif;
+  color: #8C8C8C;
+
 }
